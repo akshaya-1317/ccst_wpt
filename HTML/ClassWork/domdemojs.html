@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function greet(){
+            //console.log("Button clicked")
+                var name = document.getElementById("uname").value
+            //    console.log("Helo", name)
+          //  document.writeln("helo " + name)
+          document.getElementById("h2").innerHTML = "Helo " + name
+
+        }
+    </script>
+    
+</head>
+<body>
+    <form>
+        Username : <input type="text" id="uname"> <br>
+        <input type="button" 
+               value = "Greet me"  
+               onclick="greet()">
+    </form>    
+
+<!-- <p id="h2"></p> -->
+
+Greet : <span id="h2"></span>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function sum(){
+            let num;
+            
+
+            if (num < 0 && num > 1000) {
+            console.log("Entered number is out of range.");
+            
+            } else {
+                let sum =0;
+                for(let digit of num){
+                    sum += parseInt(digit)
+                }
+
+            console.log("sum");
+            }
+        }
+    </script>
+   
+</head>
+<body>
+    <form>
+        Enter a positive number less than 1000 : <input type="number" id="number"><br>
+        <input type="button" value="sum" onclick="sum()">
+    </form>
+</body>
+</html>

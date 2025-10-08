@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function greatestNumber (){
+            if(a >= b && a>=c){
+            return a;
+            }
+        else if(b >= a && b>=c){
+            return b;
+        }
+        else 
+            return c;
+        }
+    </script>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt("Enter first number: "))
+        let b = parseInt(prompt("Enter second number: "))
+        let c = parseInt(prompt("Enter third number: "))
+
+
+        console.log("first number", a)
+        console.log("second number", b)
+        console.log("third number", c)
+
+        document.writeln("greatest number is " + greatestNumber() + "<br>")
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function display(){
+            var r = document.getElementById("number").value
+            var area = 3.14*r*r
+            var circumference = 2*3.14*r
+            document.getElementById("h1").innerHTML =  area
+            document.getElementById("h2").innerHTML =  circumference
+        }
+    </script>
+</head>
+<body>
+    <form>
+         Enter Radius : <input type="number" id="number"> <br>
+        <input type="button" 
+               value = "display"  
+               onclick="display()">
+    </form>
+
+        Area  : <span id="h1"></span><br>
+        circumference  : <span id="h2"></span>
+
+
+</body>
+</html>

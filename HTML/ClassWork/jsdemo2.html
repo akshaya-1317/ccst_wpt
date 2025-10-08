@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+    <script>
+        var s1 = "Hello World"
+                     //    var s2 = new String("Hello World") //just another method to make objects
+
+    console.log(s1.length)
+    console.log(s1.charAt(1))
+    console.log(s1.indexOf("l"))
+    console.log(s1.indexOf("lo"))
+    console.log(s1.toUpperCase())
+
+    var s2 = "Java|Python|C++|C#|Javascript"
+
+    var arr = s2.split("|") //when we split array it goes into array
+    console.log(arr)
+
+    var d1 = new Date() //for date you have to use date.
+    document.writeln(d1 + "<br>")
+    document.writeln(d1.getDate() + "<br>")
+    document.writeln(d1.getDay() + "<br>")
+    document.writeln(d1.getFullYear() + "<br>")
+    document.writeln(d1.getMonth() + "<br>")
+    document.writeln(d1.getTime() + "<br>")
+    document.writeln(d1.getHours() + "<br>")
+
+    d1.setDate(10)
+    d1.setFullYear(2028)
+    d1.setMonth(2)
+    d1.setHours(23)
+
+    document.writeln(d1 + "<br>")
+
+    var d2 = new Date(175946914349678)
+        document.writeln(d2 + "<br>")
+
+
+        var arr = [10,20,30,40,50]
+        for(ele of arr)   //for(ele in arr) gives index
+        console.log(ele)
+
+        arr.push(60)
+        arr.push(70,80,90)
+        arr.pop()
+        console.log(arr)
+        console.log(arr.reverse())
+
+        var str = "aaa#bbb#ccc#ddd"
+        var arr = str.split("#")
+        console.log(arr)
+        var s = arr.join("-")
+        console.log(s)
+
+        //USER DEFINED OBJECT USING OBJECT INITIALIZER
+        //JSON : JavaScript Object Notation --> var person = {"pname":"Akshaya", "age":27}
+
+        var person = {pname:"Akshaya", age:27}
+        console.log(person.pname, person.age) //read property values
+
+        person.pname = "Soham"
+        person.age = 20
+
+        console.log(person.pname, person.age) //write property values
+
+        var student = {
+            prn : 1001,
+            sname : "Akshaya",
+            age : 27.6,
+            pass_status: false,
+            hobbies: ["Coding","Reading","Gaming"],
+            address: {city: "Pune", state:"Maharashtra"}
+        }
+        console.log(student.prn, student.sname, student.age, student.pass_status)
+        console.log(student.hobbies[1])
+        console.log(student.address.state)
+
+        
+//_____________________________________________________________________________________
+
+        var book = {
+            bookid: 111,
+            bname: "Learning JS",
+            Author: "Shrilata",
+            price: 500.0
+        }
+
+//_____________________________________________________________________________________
+
+        var users = [
+            {id:1, uname:"aaa", age:20},
+            {id:2, uname:"bbb", age:21},
+            {id:3, uname:"ccc", age:29},
+            {id:4, uname:"ddd", age:28},
+
+        ]
+
+        for(obj of users)
+      //  console.log(obj)
+        console.log(obj.id, obj.uname, obj.age)
+
+
+
+
+    </script>
+</body>
+</html>

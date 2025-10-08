@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function add(){
+            var N1 = parseInt(document.getElementById("num1").value)
+            var N2 = parseInt(document.getElementById("num2").value)
+
+
+             var add = N1 + N2;
+                    document.getElementById("h2").innerHTML= add
+
+        }
+
+    </script>
+  
+</head>
+<body>
+    <form>
+        Enter N1 : <input type="num1" id="num1"> <br>
+        Enter N2 : <input type="num2" id="num2"> <br>
+
+       
+        <input type="button" 
+               value = "add"  
+               onclick="add()">
+       
+    </form>
+    Result is : <span id="h2"></span>
+</body>
+</html>

@@ -1,0 +1,1017 @@
+WPT 
+
+HTML PROB1
+<html>
+    <!-- <head>
+         <title>Resume</title>
+
+    </head> -->
+   
+    <body>
+         <h3 align="center">Resume</h3>
+        <p>
+            <b>Abc pqr</b><br>Unit 55, SDF 2,
+            <br> Mumbai - 400096, 
+            <br> Mobile No: 123456789 
+            <b><br>Email : </b> abc@gmail.com
+
+        </p>
+        <hr>
+        <table>
+            <tr><th>Qualification</th><th>Institute</th><th>University/board</th><th>Marks(%)</th><th>Year of passing</th></tr>
+            <tr><td>BE(CS)</td> <td>VJTI</td> <td>Mumbai University</td> <td>89%</td> <td>2003</td></tr>
+            <tr><td>HSC</td> <td>Cambridge</td> <td>ICSE</td> <td>97%</td> <td>1999</td></tr>
+            <tr><td>SSC</td> <td>Cambridge</td> <td>ICSE</td> <td>98%</td> <td>1997</td></tr>
+            
+        </table>
+    <h4>Skill Set : </h4>
+    <table>
+        <tr><td><b>Operating system: </b></td> <td>Windows 9'x, Dos</td></tr>
+        <tr><td><b>Language: </b></td> <td>C/C++</td></tr>
+        <tr><td><b>Front End: : </b></td> <td>VB 6.0</td></tr>
+        <tr><td><b>DBMS: </b></td> <td>Oracle 9i</td></tr>
+    </table>
+        
+    </body>
+
+</html>
+________________________________________________________
+HTML PROB2
+
+<html>
+    <body>
+        <ol type="I">
+            <li>Background Skills</li>
+                <ol type="A">
+                    <li>Unix Commands</li>
+                    <li>Vim Test Editors</li>
+                </ol>
+            <li>HTML</li>
+                <ol type="A">
+                    <li>Minimal Page</li>
+                    <li>Headings</li>
+                    <li>Elements</li>
+                    <li>Lists</li>
+                        <ol type="i">
+                            <li>Unordered</li>
+                            <li>Ordered</li>
+                            <li>Definition</li>
+                            <li>Nested</li>
+                        </ol>
+                    <li>Links</li>
+                        <ol type="i">
+                            <li>Absolute</li>
+                            <li>Relative</li>
+                        </ol>
+                    <li>Images</li>
+            
+                </ol>
+            <li>CSS</li>
+                <ol type="A">
+                    <li>Anatomy</li>
+                    <li>Basic Selectors</li>
+                        <ol type="i">
+                            <li>Element</li>
+                            <li>Class</li>
+                            <li>id</li>
+                            <li>Group</li>
+                        </ol>
+                    <li>The DOM</li>
+                    <li>Advanced Selectors</li>
+                </ol>
+        </ol>
+    </body>
+</html>
+_________________________________________________
+HTML PROB3A
+<html>
+    <body>
+         <table border="1">
+        <tr bgcolor="Orange">
+            <td><b>User Name: </b></td> 
+            <td><b>Education</b></td> 
+            <td><b>Location</b></td></tr>
+        <tr>
+            <td>Praveen Kumar </td> 
+            <td>B.Tech</td> 
+            <td>Guntur</td>
+        </tr>
+        <tr>
+            <td>Mahendra Dasari </td> 
+            <td>CA</td> 
+            <td>Chennai</td>
+        </tr>
+        <tr>
+            <td>Nagarjun Dasari </td> 
+            <td>MCA</td> 
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Sateesh Alavala </td> 
+            <td>MD</td> 
+            <td>Vizag</td>
+        </tr>
+        <tr>
+            <td>Sudheer </td> 
+            <td>B.Tech</td> 
+            <td>Kakinada</td>
+        </tr>
+        
+    </table>
+    </body>
+</html>
+
+________________________________________________________
+HTML PROB3B
+
+<html>
+    <body>
+        <table border="1">
+            <!-- <caption bgcolor="lightgray">Flight Schedule</caption> -->
+            <tr bgcolor="lightgray"><td>Flight Schedule</td></tr>
+                    <tr bgcolor="lightblue"><td><b>Flight Number: </b></td> <td><b>From: </b></td> <td><b>To: </b></td> <td><b>Departure: </b></td> <td><b>Arrival: </b></td></tr>
+                    <tr bgcolor="darkgray">
+                        <td><b>BA 3451</b></td> 
+                        <td>Heathrow</td> 
+                        <td>Nuremberg</td> 
+                        <td>19:20</td> 
+                        <td>19:50</td>
+                    </tr>
+                    <tr bgcolor="lightgray">
+                        <td><b>BA 1254</b></td> 
+                        <td>Luton</td> 
+                        <td>Alicante</td> 
+                        <td>19:40</td> 
+                        <td>20:50</td>
+                    </tr>
+                    <tr bgcolor="darkgray">
+                        <td><b>LH 331</b></td> 
+                        <td>Heathrow</td> 
+                        <td>Hamburg</td> 
+                        <td>20:00</td> 
+                        <td>20:20</td>
+                    </tr>
+            <tr bgcolor="Blue", align="right">
+                <td>Total:3 flights</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+________________________________________________________________
+HTML PROB3C
+
+<html>
+    <body>
+        <table border="1">
+            <tr><td><b>Book Title</b></td> <td><b>Author</b></td> <td><b>Book Price</b></td></tr>
+            <tr>
+                <td><a href="C:\Users\CCST\Desktop\WPT\HTML\Assignments\Assign3CoreJava.txt">Core Java</a></td> 
+                <td>Cay Horstman</td> 
+                <td>400</td> 
+            </tr>
+            <tr>
+                <td><a href="C:\Users\CCST\Desktop\WPT\HTML\Assignments\Assign3BeginningJava.txt">Beginning Java</a></td> 
+                <td>Ivar Horton</td> 
+                <td>600</td> 
+            </tr>
+            <tr>
+                <td><a href="C:\Users\CCST\Desktop\WPT\HTML\Assignments\Assign3LearningJava.txt">Learning Java</a></td> 
+                <td>Kishori Shahane</td> 
+                <td>400</td> 
+            </tr>
+            <tr>
+                <td><a href="C:\Users\CCST\Desktop\WPT\HTML\Assignments\Assign3JavaCookbook.txt">Java Cookbook</a></td> 
+                <td>John Keller</td> 
+                <td>800</td> 
+            </tr>
+
+        </table>
+    </body>
+</html>
+
+__________________________________________________________________
+
+HTML PROB 5B
+
+<html>
+    <body>
+        <form>
+        <table>
+            <tr > 
+              <td>Username:</td> 
+              <td><input type="text" name="username" ></td> 
+            </tr> 
+ 
+            <tr > 
+              <td>Password:</td> 
+              <td><input type="password" name="password" >
+              </td> 
+            </tr> 
+ 
+            <tr > 
+              <td>City of<br>Employment:</td> 
+              <td><input type="text" name="city" ></td> 
+            </tr> 
+ 
+            <tr > 
+              <td>Web server:</td> 
+              <td> 
+                <select> 
+                  <option value="default" selected> --Choose a server-- </option> 
+               </select> 
+              </td> 
+            </tr> 
+            <tr> 
+                
+              </td> 
+            </tr> 
+             <tr> 
+              <td>Please specify<br>your role:</td> 
+              <td> 
+                 <input name="role" value="admin" type="radio">Admin<br> 
+                 <input name="role" value="engineer" type="radio">Engineer<br> 
+                 <input name="role" value="manager" type="radio">Manager<br> 
+                 <input name="role" value="guest" type="radio">Guest 
+              </td> 
+            </tr> 
+             <tr> 
+              <td colspan="2"  height="30"  width="100"> 
+                <p></p> 
+              </td> 
+            </tr> 
+             <tr> 
+              <td>Single Sign-on<br>to the following:</td> 
+              <td> 
+                <input name="mail" type="checkbox">Mail<br> 
+                <input name="payroll" type="checkbox">Payroll<br> 
+                <input name="selfservice" type="checkbox">Self-service<br> 
+              </td> 
+            </tr> 
+          </table> 
+        </td> 
+      </tr> 
+ 
+      <tr> 
+        <td  align="center"> 
+          <input value="Login" type="submit"> 
+          <input type="reset"> 
+        </td> 
+      </tr> 
+    </table> 
+    </form>
+    </body>
+</html>
+
+_________________________________________________________________
+
+CSS PROB1
+<html>
+    <head>
+          <style>
+            div{
+                background-color: lightblue;
+            }
+          </style>
+
+    </head>
+   
+    <body>
+        <div>
+         <h3 align="center">Resume</h3>
+        <p>
+            <b>Abc pqr</b><br>Unit 55, SDF 2,
+            <br> Mumbai - 400096, 
+            <br> Mobile No: 123456789 
+            <b><br>Email : </b> abc@gmail.com
+
+        </p>
+        <hr>
+        <table>
+            <tr><th>Qualification</th><th>Institute</th><th>University/board</th><th>Marks(%)</th><th>Year of passing</th></tr>
+            <tr><td>BE(CS)</td> <td>VJTI</td> <td>Mumbai University</td> <td>89%</td> <td>2003</td></tr>
+            <tr><td>HSC</td> <td>Cambridge</td> <td>ICSE</td> <td>97%</td> <td>1999</td></tr>
+            <tr><td>SSC</td> <td>Cambridge</td> <td>ICSE</td> <td>98%</td> <td>1997</td></tr>
+            
+        </table>
+    <h4>Skill Set : </h4>
+    <table>
+        <tr><td><b>Operating system: </b></td> <td>Windows 9'x, Dos</td></tr>
+        <tr><td><b>Language: </b></td> <td>C/C++</td></tr>
+        <tr><td><b>Front End: : </b></td> <td>VB 6.0</td></tr>
+        <tr><td><b>DBMS: </b></td> <td>Oracle 9i</td></tr>
+    </table>
+         </div>
+    </body>
+   
+</html>
+
+_______________________________________________________________
+CSS PROB2
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .div{
+            background-color: green;
+           
+        }
+         p.right {text-align: right;}
+        h1{
+            color: red;
+            background-color: gold;
+        }
+        p.bold{
+            font-weight: bold;
+            font-family: calibri;
+            text-transform: uppercase;
+            text-decoration: line-through;
+
+        }
+         
+
+    </style>
+</head>
+<body>
+    <h1>abc</h1>
+    <p>This is para-1</p>
+    <div id="div">
+        <h1>div-1</h1>
+        <p class = "right">This is para-2</p>
+        <h1>div-2</h1>
+        <p class = "right">This is para-3</p>
+
+    </div>
+
+    <h1>xyz</h1>
+    <p class="bold">This is para-4</p>
+</body>
+</html>
+
+_____________________________________________________________
+CSS PROB3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    
+        .box{
+            width: 200px;
+            height: 150px;
+            border-color: red;
+            border-style: dotted;
+            background-color: yellow;
+            
+        }
+        
+    
+   </style>
+</head>
+<body>
+    <div class="box">
+    <ul>
+        <li>Marketing</li>
+        <li>Sales</li>
+        <li>Technology</li>
+        <li>Customer Support</li>
+
+    </ul>
+    </div>
+   
+</body>
+</html>
+
+_____________________________________________________________
+CSS PROB5
+
+<html>
+    <head>
+        <style>
+            .table{
+                background-color: orange;
+                
+            }
+            table, th, td{
+                border: 1px;
+                border-style: solid;
+            }
+        </style>
+    </head>
+    <body>
+         <table>
+            
+        <tr class="table">
+            <td><b>User Name: </b></td> 
+            <td><b>Education</b></td> 
+            <td><b>Location</b></td>
+        </tr>
+           
+        <tr>
+            
+            <td>Praveen Kumar </td> 
+            <td>B.Tech</td> 
+            <td>Guntur</td>
+        </tr>
+        <tr>
+            <td>Mahendra Dasari </td> 
+            <td>CA</td> 
+            <td>Chennai</td>
+        </tr>
+        <tr>
+            <td>Nagarjun Dasari </td> 
+            <td>MCA</td> 
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Sateesh Alavala </td> 
+            <td>MD</td> 
+            <td>Vizag</td>
+        </tr>
+        <tr>
+            <td>Sudheer </td> 
+            <td>B.Tech</td> 
+            <td>Kakinada</td>
+        </tr>
+        
+    </table>
+    </body>
+</html>
+
+_______________________________________________
+CSS PROB 6
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+    <p>This is a piece of <span style="color: blue; text-decoration: underline;">text</span> with <span style="color: blue; text-decoration: underline;">highlighted</span> elements in <span style="color: blue; text-decoration: underline;">it</span> 
+</html>
+
+_____________________________________________________________
+CSS PROB 7
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .color1{
+            background-color: lightpink;
+        }
+        .color2{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="color1">
+           
+                <td>Employee Name</td>
+                <td>Department</td>
+                <td>Salary</td>
+            
+        </tr>
+        <tr class="color2">
+            <td>Jane Smith</td>
+            <td>Marketing</td>
+            <td>$95000</td>
+        </tr>
+        <tr class="color1">
+            <td>John Smith</td>
+            <td>Technology</td>
+            <td>$90000</td>
+        </tr>
+        <tr class="color2">
+            <td>Brian Adam</td>
+            <td>Sales</td>
+            <td>$72000</td>
+        </tr>
+        <tr class="color1">
+            <td>Mary Jones</td>
+            <td>Support</td>
+            <td>$60000</td>
+        </tr>
+        <tr class="color2">
+            <td>Michael Jefferson</td>
+            <td>Technology</td>
+            <td>$85000</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+____________________________________________________________
+
+CSS PROB 8
+<html>
+    <head>
+        <style>
+            .ccolor{
+                background-color: lightgreen;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <ol type="I">
+            <li class="ccolor">Background Skills</li>
+                <ol type="A">
+                    <li class="ccolor">Unix Commands</li>
+                    <li>Vim Test Editors</li>
+                </ol>
+            <li>HTML</li>
+                <ol type="A">
+                    <li class="ccolor">Minimal Page</li>
+                    <li>Headings</li>
+                    <li>Elements</li>
+                    <li>Lists</li>
+                        <ol type="i">
+                            <li class="ccolor">Unordered</li>
+                            <li>Ordered</li>
+                            <li>Definition</li>
+                            <li>Nested</li>
+                        </ol>
+                    <li>Links</li>
+                        <ol type="i">
+                            <li class="ccolor">Absolute</li>
+                            <li>Relative</li>
+                        </ol>
+                    <li>Images</li>
+            
+                </ol>
+            <li>CSS</li>
+                <ol type="A">
+                    <li class="ccolor">Anatomy</li>
+                    <li>Basic Selectors</li>
+                        <ol type="i">
+                            <li class="ccolor">Element</li>
+                            <li>Class</li>
+                            <li>id</li>
+                            <li>Group</li>
+                        </ol>
+                    <li>The DOM</li>
+                    <li>Advanced Selectors</li>
+                </ol>
+        </ol>
+    </body>
+</html>
+
+_________________________________________________________
+
+JS PROB1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <script>
+        const number = parseInt(prompt("Enter number"))
+        const message = prompt("Enter message: ")
+    
+        for(let i=0; i<number; i++){
+            document.writeln(message)
+            
+        }
+        console.log(i)
+        
+    </script>
+</body>
+</html>
+
+______________________________________________________
+JS PROB 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function greatestNumber (){
+            if(a >= b && a>=c){
+            return a;
+            }
+        else if(b >= a && b>=c){
+            return b;
+        }
+        else 
+            return c;
+        }
+    </script>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt("Enter first number: "))
+        let b = parseInt(prompt("Enter second number: "))
+        let c = parseInt(prompt("Enter third number: "))
+
+
+        console.log("first number", a)
+        console.log("second number", b)
+        console.log("third number", c)
+
+        document.writeln("greatest number is " + greatestNumber() + "<br>")
+
+
+
+
+    </script>
+</body>
+</html>
+
+_________________________________________________________
+
+JS PROB 3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+</head>
+<body>
+    <script>
+ 
+    var n = parseInt(prompt("Enter number: "))
+    
+    var nos = 1
+    while(nos <= n){
+
+        if(nos % 2 == 0){
+            document.writeln(nos +",")
+        }
+        
+        nos++
+        
+        
+    }
+
+    </script>
+</body>
+</html>
+
+_______________________________________________________
+
+JS PROB 10
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+        function getWeekDay(date){
+            var d1 = new Date()
+            
+            let days = ["SU","MO","TU","WE","TH","FR","SA"]
+            return days[d1.getDay()]
+        
+        }
+
+        let date = new Date(2012, 0, 3);
+        alert(getWeekDay(date));
+    </script>
+</body>
+</html>
+
+___________________________________________
+
+JS PROB 12
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+</head>
+<body>
+    <script>
+        let empNames = [];
+
+        for(let i=0; i<5; i++)
+    {
+        let name = prompt('Enter name of 5 employees ${i + 1}:')
+        empNames.push(name)
+        empNames.sort()
+    }
+    console.log(empNames)
+   // console.log()
+    </script>
+</body>
+</html>
+
+____________________________________________________
+JS PROB 22
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function display(){
+            var r = document.getElementById("number").value
+            var area = 3.14*r*r
+            var circumference = 2*3.14*r
+            document.getElementById("h1").innerHTML =  area
+            document.getElementById("h2").innerHTML =  circumference
+
+
+
+        }
+    </script>
+</head>
+<body>
+    <form>
+         Enter Radius : <input type="number" id="number"> <br>
+        <input type="button" 
+               value = "display"  
+               onclick="display()">
+    </form>
+
+        Area  : <span id="h1"></span><br>
+        circumference  : <span id="h2"></span>
+
+
+</body>
+</html>
+
+-----------------------------------------------------------------------------
+
+HTML Prob 4
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    
+    <p>
+        Shivaji I (Shivaji Shahaji Bhonsale, Marathi pronunciation: 
+        [ʃiˈʋaːdʑiː ˈbʱos(ə)le]; c. 19 February 1630 – 3 April 1680)[6] was an Indian ruler and a member of the Bhonsle dynasty.[7] 
+        <img src = "C:\Users\CCST\Desktop\Sivaji_and_Army.jpg">
+        Shivaji inherited a jagir from his father who served as a retainer for the Sultanate of Bijapur, which later formed the genesis of the Maratha Kingdom. In 1674, he was formally crowned the Chhatrapati of his realm at Raigad Fort.[8]
+
+Shivaji offered passage and his service to the Mughal emperor Aurangzeb to invade the declining Sultanate of Bijapur. After Aurangzeb's departure for the north due to a war of succession, Shivaji conquered territories ceded by Bijapur in the name of the Mughals.[9]: 63  Following his defeat at the hands of Jai Singh I in the Battle of Purandar, Shivaji entered into vassalage with the Mughal empire, assuming the role of a Mughal chief, during this time Shivaji also wrote a series of letters apologising to Mughal emperor Aurangzeb for his actions and requested additional honors for his services. He was later conferred with the title of Raja by the emperor.[10] He undertook military expeditions on behalf of the Mughal Empire for a brief duration.[11]
+    </p>
+</body>
+</html>
+--------------------------------------------------------------------------------
+DOM Prob 24
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+    <table>
+        
+        <tr>
+        <th>Start Number : <input type="number" id="number"></th> 
+        <th>End Number : <input type="number" id="number"></th> 
+        <th>Multiply By : <input type="number" id="number"></th> <br>
+        </tr>
+
+
+      <tr>
+        <th colspan="3">
+        <div style="text-align: center">
+        <button type="submit"> Time Table </button><br><br>
+        </div>
+        </th>
+       </tr>
+
+    <tr>
+        <th colspan="3">
+            <div style="text-align: center;"></div>
+            <button type="submit" align="center">Reset</button>
+
+        </th>
+    </tr>
+    </table>
+    
+</body>
+</html>
+
+-----------------------------------------------------------------------------
+DOM PROB 25
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function sum(){
+            let num;
+            
+
+            if (num < 0 && num > 1000) {
+            console.log("Entered number is out of range.");
+            
+            } else {
+                let sum =0;
+                for(let digit of num){
+                    sum += parseInt(digit)
+                }
+
+            console.log("sum");
+            }
+        }
+    </script>
+   
+</head>
+<body>
+    <form>
+        Enter a positive number less than 1000 : <input type="number" id="number"><br>
+        <input type="button" value="sum" onclick="sum()">
+    </form>
+</body>
+</html>
+
+----------------------------------------------------------------------------
+DOM PROB 23
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function add(){
+            var N1 = parseInt(document.getElementById("num1").value)
+            var N2 = parseInt(document.getElementById("num2").value)
+
+
+             var add = N1 + N2;
+                    document.getElementById("h2").innerHTML= add
+
+        }
+
+    </script>
+  
+</head>
+<body>
+    <form>
+        Enter N1 : <input type="num1" id="num1"> <br>
+        Enter N2 : <input type="num2" id="num2"> <br>
+
+       
+        <input type="button" 
+               value = "add"  
+               onclick="add()">
+       
+    </form>
+    Result is : <span id="h2"></span>
+</body>
+</html>
+
+------------------------------------------------------------------------
+
+TS PROB 1
+var num1:number = 2
+var num2:number = 4
+var num3:number = 6
+
+if(num1>num2 && num1>num3){
+    console.log("first number is greatest " + num1);
+} 
+else if (num2>num1 && num2>num3){
+    console.log("Second number is greatest " + num2);
+}
+else
+    console.log("Third number is greatest " + num3)
+
+
+-----------------------------------------------------
+TS PROB 2
+
+var num1:number = 2
+var num2:number = 4
+var num3:number = 6
+
+if(num1>num2 && num1>num3){
+    console.log("first number is greatest " + num1);
+} 
+else if (num2>num1 && num2>num3){
+    console.log("Second number is greatest " + num2);
+}
+else
+    console.log("Third number is greatest " + num3)
+----------------------------------------------------------
+TS PROB 3
+function sum(...numbers:number[]){
+    var i;
+    var add:number = 0;
+    var avg:number = 0;
+    for(i=0; i<numbers.length; i++){
+        add = add + numbers[i]
+        avg = add/numbers.length;
+    }
+  //  avg = add/numbers.length;
+    return add
+ 
+  
+}
+console.log(sum(1,2,3,4,5))
+
+
+
+function avg(...nums:number[]){
+
+    let add1=0;
+    for(const num of nums){
+        add1+=num;
+    }
+    return add1/nums.length;
+}
+console.log(avg(1,2,3,4,5))
+
+-------------------------------------------------
+TS PROB 4
+function sqr(n : number){
+    var i;
+    var sqr1:number = 0;
+    var sum:number = 0;
+    
+    for(i=1; i<=n; i++){
+        if(i%2 == 0){
+            sqr1 = i*i
+            sum = sum + sqr1
+        }
+    }
+    return sum
+}
+console.log(sqr(10))
+------------------------------------------------
+TS PROB 5
+function num(...numbers:any[]){
+
+var min = numbers[0];
+var max = numbers[0];
+var sum = 0;
+
+for(var num of numbers){
+    if (num<min){
+        min=num;
+    }
+    if (num>max){
+        max=num;
+    }
+    sum = sum+num;
+
+}
+var avg = sum/numbers.length
+
+console.log("Minimum number is: " +min)
+console.log("Maximum number is: " +max)
+console.log("Sum is: " +sum)
+console.log("Average is: " +avg)
+}
+
+num(4,6,8,10,89,92,54)
+
+-----------------------------------------------------------
+TS PROB 8
+
+
+class Product {
+   pid: number;
+   pname: string;
+   pprice: number;
+
+constructor(pid: number, pname: string, pprice: number){
+    this.pid = pid;
+    this.pname = pname;
+    this.pprice = pprice;
+}
+
+printProduct(): void {
+    console.log("Product id is: " + this.pid)
+    console.log("Product name is: " + this.pname)
+    console.log("Product price is: " + this.pprice)
+
+}
+}
+
+const product1 = new Product(111, "abc", 2000);
+product1.printProduct();
+
+------------------------------------------------------
+TS PROB 9
+interface Product{
+    pname: string;
+    price: number;
+}
+
+class ProductsS{
+    products: Product[];
+
+    constructor(){
+        this.products = [];
+    }
+
+    printAllProducts(product: Product): void{
+        this.products.push(product);
+    }
+}
+
+const all = new ProductsS();
+
+const item1: Product = {pname: "AAA", price: 1000};
+const item2: Product = {pname: "BBB", price: 2000};
+const item3: Product = {pname: "CCC", price: 3000};
+
+all.printAllProducts(item1);
+all.printAllProducts(item2);
+all.printAllProducts(item3);
+
+console.log("Items are: ", all.products);
+console.log("Items are: ", all.printAllProducts);
+
+
